@@ -16,6 +16,41 @@
       "message": "Super - license issue sorted now!",
       "revId": "4bc3e045567c3e660359280ad3b10a6355cf9588",
       "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "de05b14f_ba929da5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001815
+      },
+      "writtenOn": "2022-06-03T13:51:28Z",
+      "side": 1,
+      "message": "Yes, it is 😎",
+      "parentUuid": "aa5c9906_9632f67c",
+      "revId": "4bc3e045567c3e660359280ad3b10a6355cf9588",
+      "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c7ddf851_ac48daf4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001815
+      },
+      "writtenOn": "2022-06-03T13:51:28Z",
+      "side": 1,
+      "message": "License issue sorted.",
+      "revId": "4bc3e045567c3e660359280ad3b10a6355cf9588",
+      "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
     }
   ]
 }
