@@ -1,0 +1,10 @@
+---
+distribution_type: container
+container_release_tag: 1.0.0
+container_pull_registry: nexus3.o-ran-sc.org:10004
+container_push_registry: nexus3.o-ran-sc.org:10002
+project: nonrtric
+ref: ffb2596ed79a32128f45f6e5a12eb8d5904c420e
+containers:
+    - name: nonrtric-rapp-healthcheck
+      version: 1.0.0
