@@ -13,7 +13,14 @@ the `src` folder: `pip install -r requirements.txt`
 
 ## How to run
 
-Go to the `src/` folder and run `python3 main.py`. The script will start and run until stopped. Use the `-h` option to
+To start the Policy Management Service (PMS) and RIC simulators and install the default policy type, do the following:
+
+1. Go to the `test` folder.
+2. Check that the `start.sh` script has the correct versions of PMS and simulators. If not, update it to the correct versions.
+3. Run the `start.sh` script.
+4. The script will finnish when the policy type is registered and synched in PMS.
+
+To start the use case, go to the `src/` folder and run `python3 main.py`. The script will start and run until stopped. Use the `-h` option to
 see the options available for the script.
 
 As default, the script uses the "Hello World" policy type with ID "2". To create the instances it uses the body file
@@ -23,6 +30,8 @@ body file to the script at startup.
 
 To see the web page, navigate to `localhost:9990/stats`. The page refreshes itself with the same interval as the script
 uses.
+
+To stop PMS and the simulators, run the `stop.sh` script.
 
 ## License
 
