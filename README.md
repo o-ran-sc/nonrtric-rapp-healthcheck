@@ -13,7 +13,14 @@ the `src` folder: `pip install -r requirements.txt`
 
 ## How to run
 
-Go to the `src/` folder and run `python3 main.py`. The script will start and run until stopped. Use the `-h` option to
+To start the Policy Management Service and RIC simulators and install the correct policy type, do the following:
+
+1. Go to the `test` folder.
+2. Check that the `start.sh` script has the correct version of the Policy Management Service. If not, update it to the correct version.
+3. Run the `start.sh` script.
+4. Run the command ` curl localhost:8081/a1-policy/v2/rics` until the result shows that "ric1" is in state "AVAILABLE" and its "policytype_ids" contains "2".
+
+To start the use case, go to the `src/` folder and run `python3 main.py`. The script will start and run until stopped. Use the `-h` option to
 see the options available for the script.
 
 As default, the script uses the "Hello World" policy type with ID "2". To create the instances it uses the body file
