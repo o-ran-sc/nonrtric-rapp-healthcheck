@@ -1,4 +1,12 @@
-# Use case Health Check test
+# Use case Health Check test (Experimental O-RAN-SC Module)
+
+![Status: Deprecated](https://img.shields.io/badge/status-deprecated-red)
+![Status: Experimental](https://img.shields.io/badge/CVE%20Support-none-lightgrey)
+
+> [!CAUTION]
+> **Deprecated**
+>
+> This repository is no longer actively maintained or supported.
 
 ## General
 
@@ -35,7 +43,9 @@ To stop PMS and the simulators, run the `stop.sh` script.
 
 ## License
 
-Copyright (C) 2020-2022 Nordix Foundation.
+Copyright (C) 2020-2023 Nordix Foundation.
+Copyright (C) 2023-2025 OpenInfra Foundation Europe.
+
 Licensed under the Apache License, Version 2.0 (the "License")
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
